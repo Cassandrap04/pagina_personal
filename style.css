@@ -1,0 +1,43 @@
+body{
+    background-color:black;
+    color: pink;
+    text-align: center;
+    font-size:xx-large;
+    height: 95vh;
+}
+
+/*#ID: solo se usan en una cosa*/
+
+/*.Class: se utiliza en muchas cosas*/
+.button-container{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.button-container a img{
+    max-width: 350px;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.3s;
+    margin: 30px;
+}
+
+.button-container a img:hover{
+    transform: scale(1.1);
+}
+
+li a img{
+    max-width: 350px;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.3s;
+    margin: 30px;
+
+}
+
+li a img:hover{
+    transform: scale(1.1);
+}
+
+
