@@ -6,8 +6,19 @@ body{
     height: 95vh;
 }
 
-/*#ID: solo se usan en una cosa*/
+footer{
+    background-color: pink;
+    color: black;
+    text-align: left;
+    margin: 5px;
+    padding: 5px;
+}
 
+/*#ID: solo se usan en una cosa*/
+#logovolver{
+    width: 200px;
+    align-items:flex-start;
+}
 /*.Class: se utiliza en muchas cosas*/
 .button-container{
     display: flex;
